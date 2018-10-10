@@ -1,18 +1,21 @@
-import javafx.application.Application;
-import javafx.stage.Stage;
+package pl.infoshare;
 
-public class first extends Application {
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
     {
-        int a = 1;
-        int b = 2;
-        int c = 0;
+        byte a = 2;
+        byte b = 2;
+        byte c = 0;
         System.out.println( a + b );
         System.out.println( a - b );
-        System.out.println( a / c );
+        System.out.println( a / b );
+
+
+
     }
 }
